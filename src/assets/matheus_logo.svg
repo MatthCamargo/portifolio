@@ -1,0 +1,26 @@
+
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text-main { fill: white; font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; }
+    .text-home { fill: url(#gradient); font-family: Arial, sans-serif; font-size: 18px; }
+  </style>
+
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ffff" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+  </defs>
+
+  <!-- Texto principal -->
+  <text x="10" y="30" class="text-main">Matheu</text>
+  
+  <!-- Bola/traço rosa debaixo do "s" -->
+  <ellipse cx="98" cy="32" rx="8" ry="4" fill="#d24cba" />
+  
+  <!-- Letra "s" -->
+  <text x="90" y="30" class="text-main">s</text>
+
+  <!-- Texto "Home" com gradiente -->
+  <text x="110" y="30" class="text-home">Home</text>
+</svg>
